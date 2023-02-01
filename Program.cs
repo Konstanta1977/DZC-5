@@ -12,19 +12,15 @@ for( int i = 0; i< numbers.Length; i++){
     if(numbers[i]%2==0){
         count++;
     Console.WriteLine($" четное число, {count}");}
-
 }
-
 void FillArrayRandomNumbers(int[] numbers){
     for( int i = 0; i< numbers.Length; i++){
         numbers[i] = new Random().Next(100,1000);
     }
 }
 void PrintArray(int[] numbers){
-
     for(int i=0; i<numbers.Length; i++){
         System.Console.WriteLine(numbers[i]+ ",");
     }
-
     System.Console.WriteLine();
 }
